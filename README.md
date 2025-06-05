@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @micomrkaic
-- 👀 I’m interested in numerical software and working on array processing languages
+- 👀 An economist interested in numerical software and working on array processing languages
 - 🌱 I’m currently learning OCaml and Go
 - 📫 You can find me on LinkeIn
 - 😄 Pronouns: You've gotta be kidding. It's 2025, why is this still offered as an option?!
