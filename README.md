@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @micomrkaic
 - 👀 An economist interested in numerical software and working on array processing languages
-- 🌱 I’m though about learning OCaml and Go, butnothing beats good old C
+- 🌱 I’m thinking about learning OCaml and Go, but nothing appears to beat good old C
 - 📫 You can find me on LinkedIn
 - ⚡ Fun fact: I have no sense of humor. 
 
