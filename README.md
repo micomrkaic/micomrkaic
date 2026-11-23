@@ -13,7 +13,10 @@ so you can try them in the browser without installing anything.
 - **[cozy](https://github.com/micomrkaic/cozy)** is a functional matrix
   language with Octave-flavoured syntax: dual numbers for exact
   differentiation, sparse matrices, pipelines, and three interchangeable
-  linear-algebra backends.
+  linear-algebra backends. Its `dsge` package solves macroeconomic models
+  to first and second order and with occasionally binding constraints,
+  checked against Dynare, and the interpreter embeds in a C program as a
+  library.
   [Try it in the browser](https://micomrkaic.github.io/cozy/).
 - **[MM-41](https://github.com/micomrkaic/MM-41)** is a programmable RPN
   calculator for the terminal, named after the HP-41. It handles real,
@@ -23,8 +26,21 @@ so you can try them in the browser without installing anything.
   language that came before cozy. Every Neutrino program is still a valid
   cozy program.
 
-### Tools for economists
+### Economics
 
+- **[dsge-workbench](https://github.com/micomrkaic/dsge-workbench)** solves
+  DSGE models in a browser tab. Paste a model in Dynare's notation and get
+  its steady state, the Blanchard–Kahn check, impulse responses, moments
+  and a variance decomposition, recomputed as you drag a parameter: to
+  first or second order, and with an occasionally binding constraint such
+  as a zero lower bound. The numerical work is cozy's, compiled to
+  WebAssembly, and its results are checked against Dynare on ten models.
+  [Open the workbench](https://micomrkaic.github.io/dsge-workbench/).
+- **[econ-sims](https://github.com/micomrkaic/econ-sims)** is seven models
+  from the economics curriculum as simulations with sliders: Schelling's
+  segregation, wealth when income is risky, a bank run, a limit order
+  book, and three macro models that cozy solves live.
+  [Run them in the browser](https://micomrkaic.github.io/econ-sims/).
 - **[tea](https://github.com/micomrkaic/tea)**, the tiny econometric
   assistant, covers the data-prep work economists use Stata for, with
   syntax close to Stata's. It reads and writes `.dta`, runs do-files, and
