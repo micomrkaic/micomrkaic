@@ -21,7 +21,9 @@ so you can try them in the browser without installing anything.
 - **[MM-41](https://github.com/micomrkaic/MM-41)** is a programmable RPN
   calculator for the terminal, named after the HP-41. It handles real,
   complex and exact decimal scalars, matrices, user-defined words, and a
-  finance module that computes in 34-digit decimals.
+  finance module that computes in 34-digit decimals, including gross and
+  net pay under US and Slovenian tax rules.
+  [Try it in the browser](https://micomrkaic.github.io/mm-41/).
 - **[Neutrino](https://github.com/micomrkaic/Neutrino)** is the array
   language that came before cozy. Every Neutrino program is still a valid
   cozy program.
